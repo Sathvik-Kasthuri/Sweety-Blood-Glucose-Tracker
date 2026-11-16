@@ -261,6 +261,21 @@ The API tests cover authentication protection, reading retrieval, glucose value 
 - Improve automated test coverage.
 - Add deployment and cloud database support.
 
+
+## Application Screenshots
+
+### Signup Page
+![Signup Page](screenshots/Signup.png)
+
+### Login Page
+![Login Page](screenshots/Login.png)
+
+### Dashboard
+![Dashboard](screenshots/Readings.png)
+
+### Reports
+![Reports](screenshots/Report.png)
+
 ## Author
 
 Developed as a full-stack application using React.js, Node.js, Express.js, and PostgreSQL.

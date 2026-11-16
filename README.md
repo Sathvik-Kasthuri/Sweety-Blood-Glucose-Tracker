@@ -276,6 +276,28 @@ The API tests cover authentication protection, reading retrieval, glucose value 
 ### Reports
 ![Reports](screenshots/Report.png)
 
+
+
+## Notes
+
+### Assumptions
+
+- Each user can record a maximum of four glucose readings per day, one for each predefined time slot.
+- A user cannot add multiple readings for the same time slot on the same date.
+- Daily reports display readings for the selected date.
+- Month-to-date reports cover the first day of the selected month through the selected date.
+- Monthly reports display readings for the entire previous calendar month.
+- Users can access and manage only their own glucose readings.
+
+### Improvements With More Time
+
+- Add graphical charts to visualize glucose trends over time.
+- Implement downloadable PDF reports.
+- Add reminders to help users record their daily glucose readings.
+- Expand automated test coverage for authentication, CRUD operations, validations, and reports.
+- Deploy the application with a cloud-hosted PostgreSQL database.
+- Improve the user interface with additional accessibility and responsive design enhancements.
+
 ## Author
 
 Developed as a full-stack application using React.js, Node.js, Express.js, and PostgreSQL.
